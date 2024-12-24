@@ -9,7 +9,7 @@ This project demonstrates the implementation and management of various Azure res
 
 ________![Azure Architecture](https://github.com/user-attachments/assets/8e6829b6-5a7e-413d-97f3-72227ecc4d57)
 
-____________________________________________________________________________________________________________________
+____________________________________________________________________________________________________________________________
 
 Tasks Overview
 ____________________________________________________________________________________________________________________________
@@ -83,4 +83,4 @@ Conclusion
 ____________________________________________________________________________________________________________________________
 
 This project showcases the comprehensive capabilities of Azure services, from user management and resource isolation to automation and network configurations. It emphasizes practical scenarios that enhance resource security, efficiency, and scalability in a cloud environment.
-
+____________________________________________________________________________________________________________________________
