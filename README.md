@@ -59,24 +59,24 @@ ________________________________________________________________________________
 Project Highlights
 ____________________________________________________________________________________________________________________________
 
-•	Demonstrated RBAC to ensure secure access.
-•	Successfully transitioned disk encryption from PMK to CMK.
-•	Automated IIS installation and configuration.
-•	Enabled seamless file sharing and synchronization via Azure File Share.
-•	Configured a highly available load balancer setup.
-•	Implemented secure networking using NSG rules and peering connections.
+* Demonstrated RBAC to ensure secure access.
+* Successfully transitioned disk encryption from PMK to CMK.
+* Automated IIS installation and configuration.
+* Enabled seamless file sharing and synchronization via Azure File Share.
+* Configured a highly available load balancer setup.
+* Implemented secure networking using NSG rules and peering connections.
 ____________________________________________________________________________________________________________________________
 
 Resources utilized
 ____________________________________________________________________________________________________________________________
 
-•	Azure Active Directory (Entra ID)
-•	Azure Virtual Machines
-•	Azure Storage (File Share, Containers)
-•	Azure Log Analytics Workspace (DCR)
-•	Azure Key Vault
-•	Azure Load Balancer
-•	Azure Networking (NSG, VNet Peering)
+* Azure Active Directory (Entra ID)
+* Azure Virtual Machines
+* Azure Storage (File Share, Containers)
+* Azure Log Analytics Workspace (DCR)
+* Azure Key Vault
+* Azure Load Balancer
+* Azure Networking (NSG, VNet Peering)
 ____________________________________________________________________________________________________________________________
 
 Conclusion
