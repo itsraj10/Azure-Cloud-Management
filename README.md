@@ -42,14 +42,14 @@ ________________________________________________________________________________
    * Converted encryption from PMK to CMK using Azure Key Vault
 
 9. Automate IIS Installation.
-   Automated IIS installation using PowerShell scripts on VM1 and VM2 during creation.
+    * Automated IIS installation using PowerShell scripts on VM1 and VM2 during creation.
 
-10. Configure Load Balancer.
-    Configured load balancer for VM1 and VM2:
-   * Added backend pool and inbound rules
-   * Removed public IPs from VMs
+11. Configure Load Balancer.
+    * Configured load balancer for VM1 and VM2
+    * Added backend pool and inbound rules
+    * Removed public IPs from VMs
 
-11. Networking Configurations.
+12. Networking Configurations.
     * Subtask 1: RDP Setup Between Subnets: Created VNet with two subnets, RDP between them.
     * Subtask 2: Block Cross-Subnet RDP: Configured NSG rules to block cross-subnet RDP.
     * Subtask 3: Peering Connection: Created VNet peering for RDP from VM1 to a VM in another region.
