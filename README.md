@@ -12,8 +12,8 @@ ________________________________________________________________________________
 Tasks Overview
 ____________________________________________________________________________________________________________________________
 
-   Task 1. Create Users in Azure AD (Entra ID)
-        * Created 3 users with different roles and access levels.
+1. Create Users in Azure AD (Entra ID)
+   * Created 3 users with different roles and access levels.
 
    Task 2: Assign Role-Based Access Control (RBAC)
 Assigned Contributor access:
