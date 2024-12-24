@@ -12,60 +12,48 @@ ________________________________________________________________________________
 Tasks Overview
 ____________________________________________________________________________________________________________________________
 
-Task 1: Create Users in Azure AD (Entra ID).
-        •	Created three users in Azure AD to manage different roles and access levels.
-        
+Task 1: Create Users in Azure AD (Entra ID)
+Created 3 users with different roles and access levels.
+
 Task 2: Assign Role-Based Access Control (RBAC)
-       •	Assigned Contributor access to:
-          -->	User1 and User2 in RG1.
-          -->	User3 in RG2 to isolate access from VM1 and VM2.
+Assigned Contributor access:
+•	User1 and User2 in RG1
+•	User3 in RG2 for isolated VM access
+
 Task 3: Resource Creation
-•	User1 created VM1.
-•	User2 created VM2.
-•	User3 created a storage account.
+•	User1: Created VM1
+•	User2: Created VM2
+•	User3: Created a storage account
 
 Task 4: Add Data Disk to VM
-        •	Added a 50GB Data Disk to VM1.
+Added 50GB data disk to VM1.
 
 Task 5: Create and Mount File Share
-        •	Created a File Share in the storage account of User3.
-        •	Mounted the file share in VM2:
-          -->	Verified file synchronization between VM2 and the file share.
+•	Created a file share in User3's storage account
+•	Mounted file share on VM2 and verified synchronization
 
 Task 6: Log Analytics Configuration
-        •	Sent logs from VM1 and VM2 to a Log Analytics Workspace using a Data Collection Rule (DCR).
-        •	Verified logs (perf and Event) for both VMs in the workspace.
+•	Sent logs from VM1 and VM2 to Log Analytics using DCR
+•	Verified perf and event logs
 
 Task 7: Encryption Conversion
-        •	Converted encryption from Platform-Managed Key (PMK) to Customer-Managed Key (CMK) using Azure Key Vault for:
-          -->	Data Disk: Converted after detaching the disk.
-          -->	OS Disk: Converted after stopping the instance.
+Converted encryption from PMK to CMK using Azure Key Vault:
+•	Data disk after detachment
+•	OS disk after stopping VM
 
 Task 8: Automate IIS Installation
-        •	Automated IIS installation on VM1 and VM2 using custom PowerShell scripts.
-        •	Scripts uploaded to the storage account and executed during VM creation.
+Automated IIS installation using PowerShell scripts on VM1 and VM2 during creation.
 
 Task 9: Configure Load Balancer
-        •	Configured a Load Balancer for VM1 and VM2:
-          -->	Added backend pool and inbound rules.
-          -->	Removed public IPs from both VMs.
-          -->	Verified load balancer functionality.
+Configured load balancer for VM1 and VM2:
+•	Added backend pool and inbound rules
+•	Removed public IPs from VMs
 
 Task 10: Networking Configurations
-Subtask 1: RDP Setup Between Subnets
-           •	Created a Virtual Network with two subnets:
-              -->	VM1 in Subnet1 with a public IP.
-              -->	VM2 in Subnet2 without a public IP.
-          •	Established RDP connections within subnets.
+•	Subtask 1: RDP Setup Between Subnets: Created VNet with two subnets, RDP between them
+•	Subtask 2: Block Cross-Subnet RDP: Configured NSG rules to block cross-subnet RDP
+•	Subtask 3: Peering Connection: Created VNet peering for RDP from VM1 to a VM in another region.
 
-Subtask 2: Block Cross-Subnet RDP
-          •	Configured NSG rules to:
-            -->	Allow RDP within individual subnets.
-            -->	Block RDP between subnets.
-
-Subtask 3: Peering Connection
-           •	Created another virtual network in a different region.
-           •	Peered the networks and established RDP from VM1 to a VM in the second network.
 ____________________________________________________________________________________________________________________________
 
 Project Highlights
